@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "floatplane-cinema-mode",
+  "version": "0.1",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.floatplane.com/video/*",
+        "https://www.floatplane.com/video/*"
+      ],
+      "css": ["fpcm-style.css"],
+      "js": [
+        "jquery.js",
+        "content.js"
+      ]
+    }
+  ]
+}

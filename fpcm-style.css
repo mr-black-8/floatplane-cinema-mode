@@ -1,0 +1,14 @@
+.fpcm-container {
+  max-height: 100vh !important;
+  max-width: 1920px !important;
+}
+
+#fpcm-expand-button {
+  position: relative;
+  border: 2.5px solid lightgray;
+  cursor: pointer;
+  width: 20px;
+  height: 14px;
+  margin: auto 2px;
+  margin-right: 10px;
+};
